@@ -3,7 +3,7 @@ import { Tabs } from "./components/Tabs"
 import { TodoInput } from "./components/TodoInput"
 import { TodoList } from "./components/TodoList"
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 function App() {
